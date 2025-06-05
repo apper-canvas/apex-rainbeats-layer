@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "currentSong": {
+      "id": "1",
+      "title": "Baarish",
+      "artist": "Bilal Saeed",
+      "album": "Romantic Monsoon",
+      "duration": 245,
+      "coverArt": "https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?w=400&h=400&fit=crop",
+      "audioUrl": "/audio/baarish.mp3",
+      "mood": ["Passionate", "Nostalgic"]
+    },
+    "currentPlaylist": {
+      "id": "1",
+      "name": "Passionate Monsoon",
+      "description": "Intense romantic songs for deep emotional moments in the rain",
+      "mood": "Passionate",
+      "coverArt": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400&h=400&fit=crop",
+      "isCustom": false
+    },
+    "isPlaying": false,
+    "currentTime": 0,
+    "volume": 0.8,
+    "rainIntensity": 0.3,
+    "rainPreset": {
+      "id": "2",
+      "name": "Steady Rain",
+      "intensity": 0.5,
+      "soundUrl": "/audio/rain/steady-rain.mp3",
+      "dropSpeed": 2.0
+    }
+  }
+]

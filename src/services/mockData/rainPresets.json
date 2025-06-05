@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Light Drizzle",
+    "intensity": 0.2,
+    "soundUrl": "/audio/rain/light-drizzle.mp3",
+    "dropSpeed": 1.5
+  },
+  {
+    "id": "2",
+    "name": "Steady Rain",
+    "intensity": 0.5,
+    "soundUrl": "/audio/rain/steady-rain.mp3",
+    "dropSpeed": 2.0
+  },
+  {
+    "id": "3",
+    "name": "Heavy Downpour",
+    "intensity": 0.8,
+    "soundUrl": "/audio/rain/heavy-downpour.mp3",
+    "dropSpeed": 2.5
+  },
+  {
+    "id": "4",
+    "name": "Thunderstorm",
+    "intensity": 0.9,
+    "soundUrl": "/audio/rain/thunderstorm.mp3",
+    "dropSpeed": 3.0
+  }
+]

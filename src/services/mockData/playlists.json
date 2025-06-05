@@ -1,0 +1,242 @@
+[
+  {
+    "id": "1",
+    "name": "Passionate Monsoon",
+    "description": "Intense romantic songs for deep emotional moments in the rain",
+    "mood": "Passionate",
+    "coverArt": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400&h=400&fit=crop",
+    "songs": [
+      {
+        "id": "1",
+        "title": "Baarish",
+        "artist": "Bilal Saeed",
+        "album": "Romantic Monsoon",
+        "duration": 245,
+        "coverArt": "https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/baarish.mp3",
+        "mood": ["Passionate", "Nostalgic"]
+      },
+      {
+        "id": "5",
+        "title": "Kaali Ghata",
+        "artist": "Mohit Chauhan",
+        "album": "Storm of Love",
+        "duration": 234,
+        "coverArt": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/kaali-ghata.mp3",
+        "mood": ["Passionate", "Melancholic"]
+      },
+      {
+        "id": "8",
+        "title": "Saath Saath",
+        "artist": "Sonu Nigam",
+        "album": "Together in Rain",
+        "duration": 223,
+        "coverArt": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/saath-saath.mp3",
+        "mood": ["Passionate", "Euphoric"]
+      },
+      {
+        "id": "11",
+        "title": "Tum Se Hi",
+        "artist": "Mohit Chauhan",
+        "album": "From You Only",
+        "duration": 298,
+        "coverArt": "https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/tum-se-hi.mp3",
+        "mood": ["Passionate", "Tender"]
+      }
+    ],
+    "isCustom": false
+  },
+  {
+    "id": "2",
+    "name": "Dreamy Rain Clouds",
+    "description": "Floating melodies that transport you to cloud nine",
+    "mood": "Dreamy",
+    "coverArt": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
+    "songs": [
+      {
+        "id": "2",
+        "title": "Rainy Day Love",
+        "artist": "Arijit Singh",
+        "album": "Monsoon Melodies",
+        "duration": 203,
+        "coverArt": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/rainy-day-love.mp3",
+        "mood": ["Dreamy", "Tender"]
+      },
+      {
+        "id": "4",
+        "title": "Rim Jhim",
+        "artist": "Shreya Ghoshal",
+        "album": "Rain Romance",
+        "duration": 198,
+        "coverArt": "https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/rim-jhim.mp3",
+        "mood": ["Tender", "Dreamy"]
+      },
+      {
+        "id": "7",
+        "title": "Megha Re",
+        "artist": "Hariharan",
+        "album": "Cloud Nine",
+        "duration": 289,
+        "coverArt": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/megha-re.mp3",
+        "mood": ["Dreamy", "Nostalgic"]
+      }
+    ],
+    "isCustom": false
+  },
+  {
+    "id": "3",
+    "name": "Nostalgic Drizzle",
+    "description": "Sweet memories dancing with gentle raindrops",
+    "mood": "Nostalgic",
+    "coverArt": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+    "songs": [
+      {
+        "id": "1",
+        "title": "Baarish",
+        "artist": "Bilal Saeed",
+        "album": "Romantic Monsoon",
+        "duration": 245,
+        "coverArt": "https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/baarish.mp3",
+        "mood": ["Passionate", "Nostalgic"]
+      },
+      {
+        "id": "3",
+        "title": "Sawan Mein",
+        "artist": "Rahat Fateh Ali Khan",
+        "album": "Monsoon Magic",
+        "duration": 267,
+        "coverArt": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/sawan-mein.mp3",
+        "mood": ["Melancholic", "Nostalgic"]
+      },
+      {
+        "id": "12",
+        "title": "Mausam Ki Tarah",
+        "artist": "Rahat Fateh Ali Khan",
+        "album": "Like the Weather",
+        "duration": 243,
+        "coverArt": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/mausam-ki-tarah.mp3",
+        "mood": ["Nostalgic", "Melancholic"]
+      }
+    ],
+    "isCustom": false
+  },
+  {
+    "id": "4",
+    "name": "Tender Moments",
+    "description": "Gentle loving songs for soft intimate moments",
+    "mood": "Tender",
+    "coverArt": "https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?w=400&h=400&fit=crop",
+    "songs": [
+      {
+        "id": "2",
+        "title": "Rainy Day Love",
+        "artist": "Arijit Singh",
+        "album": "Monsoon Melodies",
+        "duration": 203,
+        "coverArt": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/rainy-day-love.mp3",
+        "mood": ["Dreamy", "Tender"]
+      },
+      {
+        "id": "6",
+        "title": "Pehla Nasha",
+        "artist": "Udit Narayan",
+        "album": "First Rain",
+        "duration": 256,
+        "coverArt": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/pehla-nasha.mp3",
+        "mood": ["Euphoric", "Tender"]
+      },
+      {
+        "id": "10",
+        "title": "Dil Diyan Gallan",
+        "artist": "Atif Aslam",
+        "album": "Heart's Rain",
+        "duration": 276,
+        "coverArt": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/dil-diyan-gallan.mp3",
+        "mood": ["Tender", "Dreamy"]
+      }
+    ],
+    "isCustom": false
+  },
+  {
+    "id": "5",
+    "name": "Melancholic Rain",
+    "description": "Beautiful sadness expressed through rain-soaked melodies",
+    "mood": "Melancholic",
+    "coverArt": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400&h=400&fit=crop",
+    "songs": [
+      {
+        "id": "3",
+        "title": "Sawan Mein",
+        "artist": "Rahat Fateh Ali Khan",
+        "album": "Monsoon Magic",
+        "duration": 267,
+        "coverArt": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/sawan-mein.mp3",
+        "mood": ["Melancholic", "Nostalgic"]
+      },
+      {
+        "id": "9",
+        "title": "Jal Jal Ke",
+        "artist": "K.K.",
+        "album": "Burning Rain",
+        "duration": 211,
+        "coverArt": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/jal-jal-ke.mp3",
+        "mood": ["Melancholic", "Passionate"]
+      }
+    ],
+    "isCustom": false
+  },
+  {
+    "id": "6",
+    "name": "Euphoric Storm",
+    "description": "Pure joy and celebration in the dancing rain",
+    "mood": "Euphoric",
+    "coverArt": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop",
+    "songs": [
+      {
+        "id": "6",
+        "title": "Pehla Nasha",
+        "artist": "Udit Narayan",
+        "album": "First Rain",
+        "duration": 256,
+        "coverArt": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/pehla-nasha.mp3",
+        "mood": ["Euphoric", "Tender"]
+      },
+      {
+        "id": "13",
+        "title": "Khushi Ki Woh Raat",
+        "artist": "Shreya Ghoshal",
+        "album": "Night of Joy",
+        "duration": 189,
+        "coverArt": "https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/khushi-ki-woh-raat.mp3",
+        "mood": ["Euphoric", "Dreamy"]
+      },
+      {
+        "id": "15",
+        "title": "Pyaar Hua Ikraar Hua",
+        "artist": "Lata Mangeshkar",
+        "album": "Classic Rain",
+        "duration": 234,
+        "coverArt": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400&h=400&fit=crop",
+        "audioUrl": "/audio/pyaar-hua-ikraar-hua.mp3",
+        "mood": ["Euphoric", "Passionate"]
+      }
+    ],
+    "isCustom": false
+  }
+]
