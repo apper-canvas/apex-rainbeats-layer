@@ -1,3 +1,5 @@
+import React from 'react';
+
 const PageLayout = ({ children, rainIntensity, selectedRainPreset }) => {
         const createRainDrop = () => ({
           id: Math.random(),
