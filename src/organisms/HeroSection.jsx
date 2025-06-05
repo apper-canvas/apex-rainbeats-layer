@@ -14,11 +14,51 @@ const HeroSection = ({ currentSong, playlists, onPlaylistSelect, onToggleFavorit
   const [albumColors, setAlbumColors] = useState(['#4A5D7A', '#E91E63'])
 
   // Extract colors from album art (simplified simulation)
-  useEffect(() => {
+useEffect(() => {
     if (currentSong?.coverArt) {
       // Simulate color extraction with mood-based colors
       const moodColors = {
-return (
+        passionate: ['#E91E63', '#FF5722'],
+        dreamy: ['#9C27B0', '#3F51B5'],
+        melancholic: ['#607D8B', '#37474F'],
+        energetic: ['#FF9800', '#F44336'],
+        peaceful: ['#4CAF50', '#2196F3'],
+        romantic: ['#E91E63', '#AD1457']
+      }
+      
+      const songMood = currentSong.mood || 'passionate'
+      const colors = moodColors[songMood] || moodColors.passionate
+      setAlbumColors(colors)
+    }
+  }, [currentSong])
+
+  // Helper functions
+  const handleMoodSelect = (mood) => {
+    setSelectedMood(mood)
+    const moodPlaylist = playlists.find(p => p.mood === mood)
+    if (moodPlaylist && onPlaylistSelect) {
+      onPlaylistSelect(moodPlaylist)
+      toast.success(`Switched to ${mood} mood playlist`)
+    }
+  }
+
+  const toggleLyrics = () => {
+    setShowLyrics(!showLyrics)
+  }
+
+  const handleShareSong = () => {
+    if (currentSong) {
+      toast.success(`Shared "${currentSong.title}" with friends!`)
+    }
+  }
+
+  const handleDownload = () => {
+    if (currentSong) {
+      toast.success(`Downloaded "${currentSong.title}" to your library`)
+    }
+  }
+
+  return (
     <div className="space-y-8">
       {/* Now Playing Hero Section */}
       <motion.div
